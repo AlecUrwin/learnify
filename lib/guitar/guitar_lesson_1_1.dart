@@ -106,7 +106,7 @@ class _FretIdentifyState extends State<FretIdentify> {
                     return List.generate(5, (fretIndex) {
                       const int xButtonStart = 40;
                       const int yButtonStart = 10;
-                      const double fretWidth = 60; // had to initialise as double so can be passed to Container below
+                      const double fretWidth = 60;
                       const double fretHeight = 20;
               
                       const int xSpacing = 12;

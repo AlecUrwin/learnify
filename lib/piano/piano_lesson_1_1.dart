@@ -105,6 +105,7 @@ class _NoteIdentifyState extends State<NoteIdentify> {
                     height: 200,
                   ),
 
+                  // Generates tappable area for each white key
                   Row(
                     children: 
                       whiteKeys.map((note) {
@@ -128,6 +129,7 @@ class _NoteIdentifyState extends State<NoteIdentify> {
                     .toList(),
                   ),
 
+                  // Generates tappable area for each black key
                     Positioned(
                       top: 0,
                       left: 0,

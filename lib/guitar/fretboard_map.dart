@@ -41,3 +41,4 @@ Map<String, String> fretboardMap = {
   '1,4': 'G#',
   '1,5': 'A',
 };
+

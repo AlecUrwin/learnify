@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ElevatedButton(
+                    ElevatedButton( // Guitar Lesson List button
                       onPressed: () {
                         Navigator.push(
                           context,
@@ -104,7 +104,7 @@ class _HomeState extends State<Home> {
                       width: 40.0,
                     ),
                 
-                    ElevatedButton(
+                    ElevatedButton( // Piano Lesson List button
                       onPressed: () {
                         Navigator.push(
                           context,
